@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FF000000">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:background="#FF000000">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|left"
+			android:layout_marginLeft="10dp"
+			android:layout_margin="10dp"
+			android:background="#FF000000">
+
+			<ImageView
+				android:src="@drawable/image_1"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:background="#FFA53939"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|left"
+				android:layout_marginLeft="10dp"
+				android:background="#FF000000">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="MD YASIN ARAFAT"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textStyle="bold"
+					android:textColor="#FFFFFFFF"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Your Trusted Admin"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_gravity="center"
+					android:textColor="#FFFC06F1"
+					android:textStyle="bold"/>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_weight="2">
+
+					<Button
+						android:layout_width="match_parent"
+						style="?android:attr/buttonStyleSmall"
+						android:layout_height="wrap_content"
+						android:text="Phone"
+						android:layout_weight="1.0"/>
+
+					<Button
+						android:layout_width="match_parent"
+						style="?android:attr/buttonStyleSmall"
+						android:layout_height="wrap_content"
+						android:text="Message"
+						android:layout_weight="1.0"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Note: Checkout Admin Account before starting a Deal"
+		android:textColor="#FFFFE600"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:layout_margin="4dp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="#FFC4A9A9"/>
+
+	<GridView
+		android:layout_width="wrap_content"
+		android:layout_height="300dp"
+		android:numColumns="3"
+		android:id="@+id/activitymainListView1"
+		android:background="#FF000000"
+		android:layout_margin="10dp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="#FFB49797"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="বিশেষ দ্রষ্টব্যঃ নিরাপদে ডিল করতে তিনটি নিয়ম মেনে চলুন।"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textColor="#FFFFE600"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FF000000"/>
+
+</LinearLayout>
